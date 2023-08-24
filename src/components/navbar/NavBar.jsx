@@ -13,10 +13,10 @@ const Navbar = () => {
           <Logo />
           <ItemListContainer
             menu1="Home"
-            menu2="Alimentos"
-            menu3="Bebidas"
-            tipo="Precio"
-          />
+            menu2="Salado"
+            menu3="Dulce"
+            menu4="Bebidas"
+            />
           <div className="d-flex align-items-center flex-column">
             <Valor />
             <CartWidget />

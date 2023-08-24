@@ -62,28 +62,16 @@ const ItemListContainer = (props) => {
         {props.menu3}
       </a>
     </li>
-    <div className="dropdown">
-      <button
-        id="elemSeleccionado"
-        className="btn btn-secondary dropdown-toggle mx-2 fs-6"
-        type="button"
-        data-bs-toggle="dropdown"
-        aria-expanded="false"
+    <li className="nav-item mx-3">
+      <a
+        className="nav-link active text-white fs-6"
+        aria-current="page"
+        href="#"
       >
-        Seleccione uno ...
-      </button>
-      <ul className="dropdown-menu">
-        {ingredientes.map(i => {
-          return (
-            <li  key={i.id} >
-              <a className="dropdown-item" href="#">
-                {atributo(i, props.tipo)}
-              </a>
-            </li>
-          );
-        })}
-      </ul>
-    </div>
+        {props.menu4}
+      </a>
+    </li>
+  
     </div>
   );
 };
