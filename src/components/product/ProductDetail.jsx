@@ -119,9 +119,9 @@ const productos = [
   {
     id: 9,
     tipo: 'imagen',
-    titulo: 'Fernet con Coca',
-    ubicacion: '../img/content/t3chkinder.jpg ',
-    alt: 'Imágen que presenta una torta de Chocolate. ',
+    titulo: 'Fernet con Gaseosa Cola',
+    ubicacion: '../img/content/bebFernetCoca.jpg ',
+    alt: 'Imágen que presenta trago de Fernet con Coca cola. ',
     descripcion:
       '@Yo El fernet con coca, también conocido como fernando o su diminutivo fernandito, ​​ es un cóctel que consiste en bebida de cola y fernet sobre hielo, típico de Argentina, donde es considerado un ícono cultural.​ También se expandió y se lo puede encontrar en algunos países limítrofes, como Paraguay o Uruguay.​​',
     tema: '#fernet #cocacola #fernandito',
@@ -136,10 +136,10 @@ const productos = [
     ubicacion: '../img/content/t3chkinder.jpg ',
     alt: 'Imágen que presenta una torta de Chocolate. ',
     descripcion:
-      '@Yo Un simple bizcochuelo ya no es suficiente una vez que conozcas esta esponjosa torta de Kinder Bueno. Batir los huevos con el azúcar, añadir la harina, la levadura en polvo y la vainilla, a',
-    tema: '#torta #kinder ',
-    megusta: 256,
-    precio: 8765,
+      '@YoEl cubalibre es un cóctel cubano resultante de la mezcla del refresco de cola con ron y jugo de limón. Generalmente producido a base de ron añejo, bebida de cola, limón, sal, agua mineral y azúcar. ',
+    tema: '#Bebida #CubaLibre ',
+    megusta: 300,
+    precio: 3765,
     clase:'bebidas'
   }
 ];
